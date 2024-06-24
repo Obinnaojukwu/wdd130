@@ -1,0 +1,48 @@
+main {
+    max-width: 840px;
+}
+nav a {
+    background-color: steelblue;
+    color: #eee;
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    color: steelblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main img{
+    width: 150px;
+    height: auto;
+    box-shadow: 0 0 30px gray;
+    border: 1px solid steelblue;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+    
+}
+aside img{
+    width: 150px;
+    height: auto;
+    
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
