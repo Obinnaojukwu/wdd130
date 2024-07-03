@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71; 
+    --text-color: #333333;
+    --background-color: #f4f4f4; 
+    --hero-background: rgba(0, 0, 0, 0.5); 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+header img {
+    max-height: 50px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+h1, h2 {
+    color: var(--primary-color);
+}
+
+p {
+    line-height: 1.6;
+    
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    background: url('images/hero-background.jpg') no-repeat center center/cover; 
+    padding: 100px 0; 
+}
+
+.hero h1 {
+    position: absolute;
+    top: 0px; 
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.hero article {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5); 
+    max-width: 400px; 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hero article img {
+    max-width: 100%; 
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+.hero article p {
+    margin: 10px 0; 
+    color: white; 
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .sociallinks a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .sociallinks img {
+    max-height: 30px;
+}
+
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+
+section img {
+    width: 200px; 
+    height: 150px;
+    object-fit: cover;
+    margin: 10px;
+}
