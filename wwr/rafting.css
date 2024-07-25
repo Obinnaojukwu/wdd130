@@ -188,6 +188,7 @@ footer .social img {
     padding: 20px;
 }
 
+
 .form-group {
     margin-bottom: 15px;
 }
@@ -230,3 +231,143 @@ footer .social img {
     background-color: #218838;
 }
 
+/* rafting.css */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 1em;
+}
+
+.cta {
+    background-color: #f2f2f2;
+    padding: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.info-grid {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-bottom: 2em;
+}
+
+.info-item {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 1em;
+}
+
+.info-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cta h2 {
+    margin: 0 0 1em 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.trips {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+
+.trip {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 1em;
+    text-align: center;
+}
+
+.trip img {
+    max-width: 100%;
+    height: auto;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #ccc;
+    padding: 1em;
+    text-align: left;
+}
+
+.trip-table th {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .social-icons a {
+    margin-left: 0.5rem;
+}
+
+footer .social-icons img {
+    width: 30px;
+    height: auto;
+}
